@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stack Overflow AJAX Demo</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="intro">
+			<div class="left tumblr-image"><img src ="img/tumblr-logo.jpg"></div>
+			<div class="explanation">
+				<h1>Tumblr Image Search</h1>
+				<p>This straightforward app is to do a quick search of the most recent images posted on Tumblr with the tag you input.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="stack">	
+			<h3>Search for Images</h3>
+			<p>Find pictures of anything you can think of... like dogs or ducks... or other animals that start with <em>d</em>.</p>
+			<form class="unanswered-getter" onsubmit="return false;">
+				<input type="text" placeholder='e.g., "HTML" or "HTML;CSS"' name="tags" size="30" autofocus required>
+				<input type="submit" value="Submit">
+			</form>
+			<hr>
+		</div>
+		<div class="results-container">
+			<div class="search-results"></div>
+			<div class="results"></div>
+		</div>
+	</div>
+	<div class="templates hidden">
+		<dl class="result question">
+			<dt></dt>
+				<dd class="pic"><img src="" target="_blank"></dd>
+			<dt></dt>
+				<dd class="asked-date"></dd>
+			<dt>Blog Name</dt>
+				<dd class="blog"></dd>
+			<dt></dt>
+				<dd class="asker"></dd>
+		</dl>
+		<div class="error">
+			<p>Uh-oh! Something went wrong with your request. Here's what we know:</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+	background: #38758A;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	min-height: 800px;
+}
+
+.container {
+	margin: 3em auto;
+	width: 600px;
+}
+
+.hidden {
+	display: none;
+}
+
+.left {
+	float: left;
+}
+
+.tumblr-image {
+	margin-right: 20px;
+  	
+}
+
+.tumblr-image img {
+	width: 300px;
+	border-radius: 10px;
+	border: 3px solid #333;
+}
+
+.intro {
+	margin-bottom: 1em;
+}
+.stack {
+	clear: both;
+}
+
+.inspiration { 
+	margin-left: 3em;
+}
+
+.result {
+	padding: 5px;
+	margin: 0 auto 1em auto;
+}
+
+.error {
+	background-color: #F78181;
+	padding: 1em;
+}
+
+.pic img {
+	width: 600px;
+	border-radius: 5px;
+	border: 3px solid #364F8A ;
+}
+
+.pic img {
+
+}
+
+hr {
+	color: #333;
+	border: 1px solid #333;
+}
