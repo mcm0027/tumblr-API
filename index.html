@@ -12,17 +12,20 @@
 		<div class="intro">
 			<div class="left tumblr-image"><img src ="img/tumblr-logo.jpg"></div>
 			<div class="explanation">
-				<h1>Tumblr Image Search</h1>
-				<p>This straightforward app is to do a quick search of the most recent images posted on Tumblr with the tag you input.</p>
+				<h1>Tumblr Blog Search</h1>
+				<p>This app lets you search for different media types posted by your favorite Tublr blogs.</p>
 			</div>
 		</div>
 		<hr>
 		<div class="stack">	
-			<h3>Search for Images</h3>
-			<p>Find pictures of anything you can think of... like dogs or ducks... or other animals that start with <em>d</em>.</p>
-			<form class="unanswered-getter" onsubmit="return false;">
-				<input type="text" placeholder='e.g., "HTML" or "HTML;CSS"' name="tags" size="30" autofocus required>
-				<input type="submit" value="Submit">
+			<h3>Search for Content</h3>
+			<p>Type in the name of a blog on Tumblr that you follow or are interested in and click on a content type.</p>
+			
+			<form class="blog-getter" onsubmit="return false;">
+              <input type="text" placeholder='awesome pictures' name="blog" size="30" autofocus required>
+			<button class="picture-btn">Pictures</button>
+              <button class="text-btn">Text</button>
+              <button class="video-btn">Videos</button>
 			</form>
 			<hr>
 		</div>
@@ -32,15 +35,14 @@
 		</div>
 	</div>
 	<div class="templates hidden">
-		<dl class="result question">
-			<dt></dt>
-				<dd class="pic"><img src="" target="_blank"></dd>
-			<dt></dt>
-				<dd class="asked-date"></dd>
-			<dt>Blog Name</dt>
-				<dd class="blog"></dd>
-			<dt></dt>
-				<dd class="asker"></dd>
+		<dl class="result blogger">
+          <dt></dt>
+              <dd class="pic"><img src="" target="_blank"></dd>
+          <dt></dt>
+            <dd class="video"></dd>
+          <dt></dt>
+            <dd class="caption"></dd>
+       
 		</dl>
 		<div class="error">
 			<p>Uh-oh! Something went wrong with your request. Here's what we know:</p>
